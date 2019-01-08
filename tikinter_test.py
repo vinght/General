@@ -15,8 +15,12 @@ def showMessage(text):
     tkm.showinfo('into', '強く生きろ')
 
 def deleteEntry(event):
-    tkm.askquestion('Do you want to all delete?', 'Yes? or No?')
-    Entry1.delete(0, tk.END)
+    anyone = tkm.askquestion(
+        'Do you want to all delete?',
+        'Yes? or No?'
+        )
+    if anyone == "yes":
+        Entry1.delete(0, tk.END)
 
 #ラベル
 Static1 = tk.Label(
