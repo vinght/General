@@ -1,0 +1,19 @@
+4種類のスカラー型はpythonと基本的には同じと考えてよい。
+論理値 (boolean)
+整数 (integer)
+浮動小数点数 (float, double も同じ)
+文字列 (string)
+
+
+4種類の複合型
+配列 (array) pythonで言うリスト
+オブジェクト (object) これについてはよくわからん
+callable
+iterable
+
+
+
+そして、最後に 2 種類の特別な型:
+
+リソース (resource)
+ヌル (NULL)
